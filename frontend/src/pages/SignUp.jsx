@@ -10,7 +10,7 @@ import {
 import { FaUpload } from "react-icons/fa";
 import loginImage from "../asset/signUpI.png";
 import ImageToBase64 from "../utils/ImageToBase64";
-import { axiosInstance ,ApiCollection } from "../../../backend/common/axios.config.js";
+import { axiosInstance ,ApiCollection } from ".././utils/axios.Config.js";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
