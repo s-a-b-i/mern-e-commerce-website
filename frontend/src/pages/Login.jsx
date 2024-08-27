@@ -9,7 +9,7 @@ import loginImage from "../asset/loginI.png";
 import loginIcons from "../asset/loginG.gif";
 import { Link, useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
-import { axiosInstance, ApiCollection } from "../../../backend/common/axios.Config.js";
+import { axiosInstance, ApiCollection } from ".././utils/axios.Config.js";
 import 'react-toastify/dist/ReactToastify.css';
 import { Context } from "../context/index.jsx";
 

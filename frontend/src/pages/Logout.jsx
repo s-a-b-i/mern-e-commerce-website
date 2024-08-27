@@ -1,7 +1,7 @@
 import axios from "axios";
 import { toast } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
-import { axiosInstance, ApiCollection } from "../../../backend/common/axios.Config";
+import { axiosInstance, ApiCollection } from ".././utils/axios.Config.js";
 
 const Logout = async () => {
   try {

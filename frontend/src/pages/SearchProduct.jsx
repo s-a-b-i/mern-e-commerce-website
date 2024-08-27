@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
-import { axiosInstance, ApiCollection } from '../../../backend/common/axios.Config';
+import { axiosInstance, ApiCollection } from '.././utils/axios.Config';
 import SearchProductCard from '../components/SearchProductCard';
 
 const SearchProduct = () => {

@@ -4,7 +4,7 @@ import { FaTimes, FaBox, FaTags, FaDollarSign, FaInfoCircle } from 'react-icons/
 import { ProductCategories } from '../helpers/ProductCategories.jsx';
 import UploadImage from '../helpers/UploadImage.jsx';
 import { toast } from 'react-toastify';
-import { axiosInstance, ApiCollection } from '../../../backend/common/axios.Config.js';
+import { axiosInstance, ApiCollection } from '.././utils/axios.Config.js';
 
 const EditProduct = ({ product, onClose, onEdit }) => {
   const [productData, setProductData] = useState(product);

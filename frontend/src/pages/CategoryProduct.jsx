@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useContext } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Link, useLocation } from 'react-router-dom';
-import { axiosInstance, ApiCollection } from '../../../backend/common/axios.Config.js';
+import { axiosInstance, ApiCollection } from '.././utils/axios.Config.js';
 import { FaShoppingCart, FaFilter, FaSort } from 'react-icons/fa';
 import AddToCart from '../helpers/AddToCart.jsx';
 import { Context } from '../context/index.jsx';

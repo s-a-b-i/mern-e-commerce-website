@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect, useContext, useRef } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { axiosInstance, ApiCollection } from '../../../backend/common/axios.Config.js';
+import { axiosInstance, ApiCollection } from '.././utils/axios.Config.js';
 import { Context } from '../context/index.jsx';
 import { Link, useNavigate } from 'react-router-dom';
 import { FaTrash, FaMinus, FaPlus, FaShoppingBag } from 'react-icons/fa';

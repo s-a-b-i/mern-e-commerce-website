@@ -1,6 +1,6 @@
 // useSearch.js
 import { useState, useEffect, useCallback } from 'react';
-import { axiosInstance, ApiCollection } from '../../../backend/common/axios.Config';
+import { axiosInstance, ApiCollection } from '.././utils/axios.Config';
 
 export const useSearch = () => {
   const [query, setQuery] = useState('');

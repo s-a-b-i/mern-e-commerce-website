@@ -7,8 +7,7 @@ import Header from "./components/Header.jsx";
 import Footer from "./components/Footer.jsx";
 import { Context } from "./context/index.jsx";
 import { setUserDetails } from "./store/userslice.jsx";
-import { axiosInstance, ApiCollection } from "../../backend/common/axios.Config.js";
-
+import { axiosInstance, ApiCollection } from "./utils/axios.Config.js";
 function App() {
   const dispatch = useDispatch();
   const [cartItemCount, setCartItemCount] = useState(0);

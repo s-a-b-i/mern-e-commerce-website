@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useContext } from 'react';
 import { useParams, useLocation, useNavigate } from 'react-router-dom';
-import { axiosInstance, ApiCollection } from '../../../backend/common/axios.Config.js';
+import { axiosInstance, ApiCollection } from '.././utils/axios.Config.js';
 import { FaShoppingCart, FaChevronLeft, FaChevronRight } from 'react-icons/fa';
 import { motion } from 'framer-motion';
 import MagnifyingGlass from './MagnifyingGlass.jsx';

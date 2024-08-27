@@ -1,4 +1,4 @@
-import { axiosInstance, ApiCollection } from '../../../backend/common/axios.Config';
+import { axiosInstance, ApiCollection } from '../utils/axios.Config.js';
 
 export const fetchproductscertaincategory = async (category) => {
   if (!category) {

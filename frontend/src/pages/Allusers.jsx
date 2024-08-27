@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { axiosInstance, ApiCollection } from '../../../backend/common/axios.Config.js';
+import { axiosInstance, ApiCollection } from '.././utils/axios.Config.js';
 import { motion, AnimatePresence } from 'framer-motion';
 import { FaUser, FaEnvelope, FaUserTag, FaCalendarAlt, FaEdit } from 'react-icons/fa';
 import UpdateUserDetails from '../components/UpdateUserDetails.jsx';

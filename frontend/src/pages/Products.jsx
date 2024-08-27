@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { FaPlus } from "react-icons/fa";
 import UploadProduct from "../components/Uploadproduct.jsx";
 import { ProductSearchFilter } from "../components/ProductSearchFilter.jsx";
-import { axiosInstance, ApiCollection } from "../../../backend/common/axios.Config.js";
+import { axiosInstance, ApiCollection } from ".././utils/axios.Config.js";
 import ProductCard from "../components/ProductCard.jsx";
 
 const Products = () => {

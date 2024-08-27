@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { axiosInstance, ApiCollection } from '../../../backend/common/axios.Config.js';
+import { axiosInstance, ApiCollection } from '.././utils/axios.Config.js';
 import { motion } from 'framer-motion';
 import { Role } from '../../../backend/common/role.js';
 import { toast } from 'react-toastify';
