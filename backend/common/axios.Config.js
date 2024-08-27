@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const mainUrl = 'http://localhost:8000/api/v1';
+const mainUrl = 'https://full-e-commerce-api.vercel.app/api/v1';
 
 const axiosInstance = axios.create({
   baseURL: mainUrl,
