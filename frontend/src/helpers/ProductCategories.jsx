@@ -1,0 +1,37 @@
+
+
+const ProductCategories = [
+  { id: 0, label: "All", value: "all" },
+  { id: 1, label: "Airpods", value: "airpods" },
+  { id: 2, label: "Camera", value: "camera" },
+  { id: 3, label: "Earphones", value: "earphones" },
+  { id: 4, label: "Mobiles", value: "mobiles" },
+  { id: 5, label: "Mouse", value: "mouse" },
+  { id: 6, label: "Printers", value: "printers" },
+  { id: 7, label: "Processor", value: "processor" },
+  { id: 8, label: "Refrigerator", value: "refrigerator" },
+  { id: 9, label: "Speakers", value: "speakers" },
+  { id: 10, label: "Trimmers", value: "trimmers" },
+  { id: 11, label: "Televisions", value: "televisions" },
+  { id: 12, label: "Watches", value: "watches" },
+  { id: 13, label: "Laptops", value: "laptops" },
+  { id: 14, label: "Tablets", value: "tablets" },
+  { id: 15, label: "Desktops", value: "desktops" },
+  { id: 16, label: "Keyboard", value: "keyboard" },
+  { id: 17, label: "Headphones", value: "headphones" },
+  { id: 18, label: "Monitor", value: "monitor" },
+  { id: 19, label: "Router", value: "router" },
+  { id: 20, label: "Smartphones", value: "smartphones" },
+  { id: 21, label: "Men's Clothing", value: "mensclothing" },
+  { id: 22, label: "Women's Clothing", value: "womensclothing" },
+  { id: 23, label: "Men's Shoes", value: "mensshoes" },
+  { id: 24, label: "Women's Shoes", value: "womensshoes" },
+  { id: 25, label: "Gaming Consoles", value: "gamingconsoles" },
+  { id: 26, label: "Drones", value: "drones" },
+  { id: 27, label: "Smart Home Devices", value: "smarthomedevices" },
+  { id: 28, label: "Fitness Trackers", value: "fitnesstrackers" },
+  { id: 29, label: "Smart Glasses", value: "smartglasses" },
+  { id: 30, label: "Smart Watches", value: "smartwatches" },
+];
+
+export { ProductCategories }
