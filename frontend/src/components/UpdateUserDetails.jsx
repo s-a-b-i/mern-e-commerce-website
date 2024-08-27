@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { axiosInstance, ApiCollection } from '.././utils/axios.Config.js';
 import { motion } from 'framer-motion';
-import { Role } from '../../../backend/common/role.js';
+import { Role } from '.././utils/role.js';
 import { toast } from 'react-toastify';
 import { FaEnvelope, FaUser, FaUserTag, FaTimes } from 'react-icons/fa';
 

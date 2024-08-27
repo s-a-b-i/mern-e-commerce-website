@@ -1,5 +1,5 @@
 import { toast } from 'react-toastify';
-import { ApiCollection, axiosInstance } from '../../../backend/common/axios.Config.js';
+import { ApiCollection, axiosInstance } from '.././utils/axios.Config.js';
 
 const AddToCart = async (e, productId) => {
   e.preventDefault();

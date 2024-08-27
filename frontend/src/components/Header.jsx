@@ -7,7 +7,7 @@ import Logo from "./Logo";
 import 'react-toastify/dist/ReactToastify.css';
 import { Logout } from "../pages/Logout.jsx";
 import { setUserDetails } from "../store/userslice";
-import { Role } from "../../../backend/common/role.js";
+import { Role } from ".././utils/axios.Config.js";
 import { Context } from "../context/index.jsx";
 import SearchBar from "./SearchBar.jsx";
 

@@ -1,4 +1,4 @@
-import { ApiCollection, axiosInstance } from '../../../backend/common/axios.Config.js';
+import { ApiCollection, axiosInstance } from '.././utils/axios.Config.js';
 import { toast } from 'react-toastify';
 
 const BuyNow = async (productId, navigate) => {
