@@ -72,7 +72,7 @@ const CategoryList = () => {
             animate={{ opacity: 1 }}
             transition={{ duration: 0.5 }}
           >
-            {categoriesWithProducts.map(({ category, sampleProduct }) => (
+            {categoriesWithProducts?.map(({ category, sampleProduct }) => (
               <Link 
                 key={category}
                 to={`/productCategory/${category}`}

@@ -84,7 +84,7 @@ const Header = () => {
           {user ? (
             <>
               <div className="relative" ref={dropdownRef}>
-                {user.data.profileImage ? (
+                {user.data?.profileImage ? (
                   <img
                     src={user.data.profileImage}
                     alt={user.data.name}
@@ -101,7 +101,7 @@ const Header = () => {
                     onClick={() => setShowDropdown(!showDropdown)}
                   >
                     <span className="text-white text-lg font-semibold">
-                      {user.data.username ? user.data.username.charAt(0).toUpperCase() : 'U'}
+                      {user.data?.username ? user.data.username.charAt(0).toUpperCase() : 'U'}
                     </span>
                   </div>
                 )}
