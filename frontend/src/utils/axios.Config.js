@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const mainUrl = 'full-e-commerce-web-app-backend.vercel.app/api/v1';
+const mainUrl = 'https://full-e-commerce-web-app-backend.vercel.app/api/v1';
 
 const axiosInstance = axios.create({
   baseURL: mainUrl,
