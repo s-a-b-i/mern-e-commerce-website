@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
-import { axiosInstance, ApiCollection } from '.././utils/ImageToBase64';
+import { axiosInstance, ApiCollection } from '.././utils/axios.Config.js';
 
 const LoadingSpinner = () => (
   <div className="flex justify-center items-center h-screen">
