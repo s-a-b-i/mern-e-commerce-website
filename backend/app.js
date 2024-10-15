@@ -15,7 +15,7 @@ const app = express();
 const __dirname = path.resolve();
 
 app.use(cors({
-  origin: process.env.CORS_ORIGIN,
+  origin: "https://mern-e-commerce-website-ax3u.onrender.com'",
   credentials: true,
 }));
 
