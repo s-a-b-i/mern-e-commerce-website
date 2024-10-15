@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const mainUrl = 'http://localhost:8000/api/v1';
+const mainUrl = 'https://mern-e-commerce-website-ax3u.onrender.com';
 
 const axiosInstance = axios.create({
   baseURL: mainUrl,
